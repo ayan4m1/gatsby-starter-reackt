@@ -1,0 +1,22 @@
+{
+  "name": "gatsby-starter-reackt",
+  "version": "0.1.0",
+  "description": "An opinionated Gatsby starter.",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ayan4m1/gatsby-starter-reackt.git"
+  },
+  "keywords": [
+    "gatsbyjs",
+    "gatsby-starter"
+  ],
+  "author": "ayan4m1 <andrew@bulletlogic.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ayan4m1/gatsby-starter-reackt/issues"
+  },
+  "homepage": "https://github.com/ayan4m1/gatsby-starter-reackt#readme"
+}
