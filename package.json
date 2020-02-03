@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "An opinionated Gatsby starter.",
   "scripts": {
-    "test": "npm test"
+    "setup": "node bin/setup.js"
   },
   "repository": {
     "type": "git",
@@ -40,6 +40,7 @@
   },
   "dependencies": {
     "dotenv": "^8.2.0",
+    "envfile": "^4.5.0",
     "gatsby": "^2.19.12",
     "gatsby-image": "^2.2.40",
     "gatsby-plugin-google-analytics": "^2.1.35",
