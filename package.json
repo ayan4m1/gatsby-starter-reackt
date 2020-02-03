@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/ayan4m1/gatsby-starter-reackt#readme",
   "devDependencies": {
+    "babel-eslint": "^10.0.3",
     "cross-env": "^7.0.0",
     "eslint": "^6.8.0",
     "eslint-config-prettier": "^6.10.0",
@@ -40,11 +41,22 @@
   "dependencies": {
     "dotenv": "^8.2.0",
     "gatsby": "^2.19.12",
+    "gatsby-image": "^2.2.40",
     "gatsby-plugin-google-analytics": "^2.1.35",
     "gatsby-plugin-manifest": "^2.2.41",
     "gatsby-plugin-offline": "^3.0.34",
     "gatsby-plugin-react-helmet": "^3.1.22",
+    "gatsby-plugin-sass": "^2.1.28",
+    "gatsby-plugin-sharp": "^2.4.5",
+    "gatsby-plugin-sitemap": "^2.2.27",
+    "gatsby-source-filesystem": "^2.1.48",
     "gatsby-transformer-remark": "^2.6.50",
-    "inquirer": "^7.0.4"
+    "gatsby-transformer-sharp": "^2.3.14",
+    "inquirer": "^7.0.4",
+    "node-sass": "^4.13.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-helmet": "^5.2.1"
   }
 }
