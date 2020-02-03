@@ -175,8 +175,10 @@ module.exports = {
       alias: [
         ['~components', './src/components'],
         ['~pages', './src/pages'],
-        ['~utils', './src/utils'],
-        ['~workers', './src/workers']
+        ['~reducers', './src/reducers'],
+        ['~sagas', './src/sagas'],
+        ['~selectors', './src/selectors'],
+        ['~utils', './src/utils']
       ]
     }
   }
