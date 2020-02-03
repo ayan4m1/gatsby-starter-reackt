@@ -18,5 +18,33 @@
   "bugs": {
     "url": "https://github.com/ayan4m1/gatsby-starter-reackt/issues"
   },
-  "homepage": "https://github.com/ayan4m1/gatsby-starter-reackt#readme"
+  "homepage": "https://github.com/ayan4m1/gatsby-starter-reackt#readme",
+  "devDependencies": {
+    "cross-env": "^7.0.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-import-resolver-webpack": "^0.12.1",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "^7.18.3",
+    "husky": "^4.2.1",
+    "lint-staged": "^10.0.7",
+    "prettier": "^1.19.1",
+    "prettier-eslint": "^9.0.1",
+    "prettier-stylelint": "^0.4.2",
+    "stylelint": "^13.0.0",
+    "stylelint-a11y": "^1.2.2",
+    "stylelint-config-recommended": "^3.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "gatsby": "^2.19.12",
+    "gatsby-plugin-google-analytics": "^2.1.35",
+    "gatsby-plugin-manifest": "^2.2.41",
+    "gatsby-plugin-offline": "^3.0.34",
+    "gatsby-plugin-react-helmet": "^3.1.22",
+    "gatsby-transformer-remark": "^2.6.50",
+    "inquirer": "^7.0.4"
+  }
 }
