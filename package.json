@@ -27,6 +27,7 @@
   "homepage": "https://github.com/ayan4m1/gatsby-starter-reackt#readme",
   "devDependencies": {
     "babel-eslint": "^10.0.3",
+    "babel-plugin-module-resolver": "^4.0.0",
     "cross-env": "^7.0.0",
     "eslint": "^6.8.0",
     "eslint-config-prettier": "^6.10.0",

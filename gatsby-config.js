@@ -56,7 +56,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-module-resolver',
       options: {
-        root: './src/'
+        root: './src/',
+        aliases: {}
       }
     }
   ]
