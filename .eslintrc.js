@@ -172,14 +172,7 @@ module.exports = {
       version: 'detect'
     },
     'import/resolver': {
-      alias: [
-        ['components/', './src/components/'],
-        ['pages/', './src/pages/'],
-        ['reducers/', './src/reducers/'],
-        ['sagas/', './src/sagas/'],
-        ['selectors/', './src/selectors/'],
-        ['utils/', './src/utils/']
-      ]
+      'babel-module': {}
     }
   }
 };
