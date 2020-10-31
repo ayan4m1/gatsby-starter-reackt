@@ -1,5 +1,3 @@
-const path = require('path');
-
 module.exports = {
   env: {
     browser: true,
@@ -172,7 +170,10 @@ module.exports = {
       version: 'detect'
     },
     'import/resolver': {
-      'babel-module': {}
+      alias: [
+        ['~components', './src/components'],
+        ['~pages', './src/pages']
+      ]
     }
   }
 };
