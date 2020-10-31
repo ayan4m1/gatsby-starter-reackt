@@ -1,12 +1,15 @@
-const { writeFile } = require('fs');
+const { writeFile: rawWriteFile } = require('fs');
 const { resolve } = require('path');
 const { prompt } = require('inquirer');
 const { stringify } = require('envfile');
+const { promisify } = require('util');
 
 const { green, red } = require('colors');
 
+const writeFile = promisify(rawWriteFile);
+
 const urlValidator = (input) =>
-  /(?i)\b((?:[a-z][\w-]+:(?:\/{1,3}|[a-z0-9%])|www\d{0,3}[.]|[a-z0-9.-]+[.][a-z]{2,4}\/)(?:[^\s()<>]+|\(([^\s()<>]+|(\([^\s()<>]+\)))*\))+(?:\(([^\s()<>]+|(\([^\s()<>]+\)))*\)|[^\s`!()[\]{};:'".,<>?«»“”‘’]))/i.test(
+  /[-a-zA-Z0-9@:%._+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_+.~#?&//=]*)/i.test(
     input
   ) || red('Enter a valid URL');
 
@@ -45,12 +48,14 @@ const getAnswers = async () => {
     APP_URL: answers.appUrl,
     GA_TRACKING_ID: answers.gaTrackingId || ''
   });
+  const appUrl = new URL(answers.appUrl);
 
   await writeFile(resolve(__dirname, '..', '.env'), envContents);
+  await writeFile(resolve(__dirname, '..', 'static', 'CNAME'), appUrl.hostname);
 
   // eslint-disable-next-line
   console.log(
-    `Your application has been set up ${green('successfully!')} Enjoy Gatsby!`
+    `Your application has been set up ${green('successfully')}!   Enjoy Gatsby!`
   );
 };
 
