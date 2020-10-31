@@ -31,6 +31,7 @@
     "cross-env": "^7.0.2",
     "eslint": "^7.12.1",
     "eslint-config-prettier": "^6.15.0",
+    "eslint-import-resolver-alias": "^1.1.2",
     "eslint-import-resolver-babel-module": "^5.2.0",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jsx-a11y": "^6.4.1",
@@ -47,6 +48,7 @@
     "stylelint-config-recommended": "^3.0.0"
   },
   "dependencies": {
+    "bootstrap": "^4.5.3",
     "dotenv": "^8.2.0",
     "envfile": "^6.14.0",
     "gatsby": "^2.24.91",
@@ -64,9 +66,10 @@
     "gatsby-transformer-remark": "^2.8.47",
     "gatsby-transformer-sharp": "^2.5.20",
     "inquirer": "^7.3.3",
-    "node-sass": "^5.0.0",
+    "node-sass": "^4.14.1",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
+    "react-bootstrap": "^1.4.0",
     "react-dom": "^16.12.0",
     "react-helmet": "^6.1.0"
   }
