@@ -1,11 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-export default class IndexPage extends Component {
-  render() {
-    return (
-      <div>
-        <h1>Hello World</h1>
-      </div>
-    );
-  }
+import Layout from '~components/Layout';
+
+export default function IndexPage() {
+  return (
+    <Layout>
+      <h1>Hello World</h1>
+    </Layout>
+  );
 }
