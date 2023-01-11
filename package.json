@@ -63,7 +63,7 @@
     "gatsby-plugin-sitemap": "^2.4.17",
     "gatsby-remark-images": "^3.3.40",
     "gatsby-source-filesystem": "^2.3.37",
-    "gatsby-transformer-remark": "^2.8.47",
+    "gatsby-transformer-remark": "^5.25.1",
     "gatsby-transformer-sharp": "^2.5.20",
     "inquirer": "^7.3.3",
     "node-sass": "^4.14.1",
